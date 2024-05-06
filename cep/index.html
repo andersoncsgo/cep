@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultar Endereço por CEP</title>
+    <!-- Adicionando o Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Adicionando o CSS personalizado -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-body">
+                        <label for="cepInput">Digite o CEP:</label>
+                        <input type="text" id="cepInput" class="form-control" placeholder="Exemplo: 50740050">
+                        <button onclick="fetchEndereco()" class="btn btn-primary mt-3">Consultar</button>
+                        <div id="endereco" class="mt-3">Digite um CEP e clique em consultar.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

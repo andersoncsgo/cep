@@ -1,0 +1,16 @@
+/* Estilo para o card */
+.card {
+    margin-top: 50px;
+}
+
+/* Estilo para o input e botão */
+input[type="text"] {
+    width: calc(100% - 85px);
+    display: inline-block;
+}
+
+/* Estilo para o endereço retornado */
+#endereco {
+    margin-top: 20px;
+    font-style: italic;
+}
